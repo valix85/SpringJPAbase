@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b2c78a7-495e-4ba6-8d2a-eff991f72bad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springrestbase/Repository/TopicRepository.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/springrestbase/Entity/Topic.java" afterPath="$PROJECT_DIR$/src/main/java/springrestbase/Entity/Topic.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -698,11 +696,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498837794173</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Set Entity and create Repository">
+      <created>1499094217771</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1499094217771</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3448000" />
+    <option name="totallyTimeSpent" value="3476000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
@@ -761,7 +766,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="update maven" />
+    <MESSAGE value="Set Entity and create Repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set Entity and create Repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
