@@ -1,14 +1,29 @@
 package springrestbase.Entity;
 
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 /**
  * Created by Valerio on 26/06/2017.
  */
+
+/*
+* @Entity permette di creare una tabella sulla persistenza (db) avente come colonne
+* le variabile di classe, marcate come column e id
+* */
+
+@Entity
 public class Topic {
 
-
+    @Id
     Integer     id;
+
+    @Column
     String      name;
+
+    @Column
     String      description;
 
     public Topic() {} //semplice obbligatorio per JPA/Hibernate e vari ORM
