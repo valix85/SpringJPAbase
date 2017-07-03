@@ -39,10 +39,13 @@ public class TopicService {
     }
 
     public Topic getTopic(Integer id){
+        /*
         return topics.stream()
                 .filter(t -> t.getId().equals(id))
                 .findFirst()
                 .get();
+                */
+        return topicRepository.findOne(id);
     }
 
     public void addTopic(Topic topic) {
