@@ -1,7 +1,9 @@
 package springrestbase.Service;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import springrestbase.Entity.Topic;
+import springrestbase.Repository.TopicRepository;
 
 
 import java.util.ArrayList;
@@ -16,6 +18,9 @@ import java.util.List;
 @Service
 public class TopicService {
 
+    @Autowired
+    private TopicRepository topicRepository;
+
     List<Topic> topics = new ArrayList<>(Arrays.asList(
             new Topic(1,"APIconf","Turin 15/06/2017"),
             new Topic(2,"NetConference","Milan 23/07/2017"),
@@ -23,7 +28,14 @@ public class TopicService {
     ));
 
     public List<Topic> getAllTopics(){
+        //return topics;
+        List<Topic> topics = new ArrayList<>();
+        //return all data from instance of topicRepository
+        topicRepository
+                .findAll()
+                .forEach(topics::add);
         return topics;
+
     }
 
     public Topic getTopic(Integer id){
@@ -34,7 +46,8 @@ public class TopicService {
     }
 
     public void addTopic(Topic topic) {
-        topics.add(topic);
+        //topics.add(topic);
+        topicRepository.save(topic);
     }
 
     public void updateTopic(Integer id, Topic topic) {
