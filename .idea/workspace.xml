@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b2c78a7-495e-4ba6-8d2a-eff991f72bad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springrestbase/Controller/CourseController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springrestbase/Entity/Course.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springrestbase/Repository/CourseRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/springrestbase/Service/CourseService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -867,11 +863,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499149950433</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add Course function">
+      <created>1499150114038</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1499150114038</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6695000" />
+    <option name="totallyTimeSpent" value="6719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
@@ -933,7 +936,8 @@
     <MESSAGE value="Create select and insert CRUD operation" />
     <MESSAGE value="Create select one and other CRUD operations" />
     <MESSAGE value="code clean" />
-    <option name="LAST_COMMIT_MESSAGE" value="code clean" />
+    <MESSAGE value="add Course function" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Course function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
