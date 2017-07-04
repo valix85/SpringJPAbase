@@ -2,8 +2,9 @@ package springrestbase.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import springrestbase.Entity.Course;
 import springrestbase.Entity.Topic;
-import springrestbase.Repository.TopicRepository;
+import springrestbase.Repository.CourseRepository;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,27 +18,27 @@ import java.util.List;
 public class CourseService {
 
     @Autowired
-    private TopicRepository topicRepository;
+    private CourseRepository courseRepository;
 
-    public List<Topic> getAllTopics(){
-        List<Topic> topics = new ArrayList<>();
-        topicRepository.findAll().forEach(topics::add);
-        return topics;
+    public List<Course> getAllCourses(Integer id){
+        List<Course> course = new ArrayList<>();
+        courseRepository.findAll().forEach(course::add);
+        return course;
     }
 
-    public Topic getTopic(Integer id){
-        return topicRepository.findOne(id);
+    public Course getCourse(Integer id){
+        return courseRepository.findOne(id);
     }
 
-    public void addTopic(Topic topic) {
-        topicRepository.save(topic);
+    public void addCourse(Course course) {
+        courseRepository.save(course);
     }
 
-    public void updateTopic(Integer id, Topic topic) {
-        topicRepository.save(topic);
+    public void updateCourse(Course course) {
+        courseRepository.save(course);
     }
 
-    public void deleteTopic(Integer id) {
-        topicRepository.delete(id);
+    public void deleteCourse(Integer id) {
+        courseRepository.delete(id);
     }
 }

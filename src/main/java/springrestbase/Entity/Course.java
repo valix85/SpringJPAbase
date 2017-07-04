@@ -18,21 +18,25 @@ import javax.persistence.Id;
 public class Course {
 
     @Id
-    Integer     id;
+    Integer id;
 
     @Column
-    String      name;
+    String name;
 
     @Column
-    String      description;
+    String description;
 
-    public Course() {} //semplice obbligatorio per JPA/Hibernate e vari ORM
+    private Topic topic;
 
-    public Course(Integer id, String name, String description) {
+    public Course() {
+    } //semplice obbligatorio per JPA/Hibernate e vari ORM
+
+    public Course(Integer id, String name, String description, Integer topid_id) {
         super();
         this.id = id;
         this.name = name;
         this.description = description;
+        this.topic = new Topic(topid_id, "", "");
     }
 
     public Integer getId() {
@@ -57,5 +61,13 @@ public class Course {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public Topic getTopic() {
+        return topic;
+    }
+
+    public void setTopic(Topic topic) {
+        this.topic = topic;
     }
 }
