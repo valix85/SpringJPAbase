@@ -42,10 +42,18 @@
       <file leaf-file-name="TopicService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/springrestbase/Service/TopicService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="71" column="35" lean-forward="false" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+            <state relative-caret-position="114">
+              <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#971#972#0" expanded="true" />
+                <element signature="e#1014#1015#0" expanded="true" />
+                <element signature="e#1056#1057#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -734,11 +742,18 @@
       <option name="project" value="LOCAL" />
       <updated>1499097257031</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="code clean">
+      <created>1499148888220</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1499148888221</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5518000" />
+    <option name="totallyTimeSpent" value="5656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
@@ -800,7 +815,8 @@
     <MESSAGE value="Set Entity and create Repository" />
     <MESSAGE value="Create select and insert CRUD operation" />
     <MESSAGE value="Create select one and other CRUD operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create select one and other CRUD operations" />
+    <MESSAGE value="code clean" />
+    <option name="LAST_COMMIT_MESSAGE" value="code clean" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -907,10 +923,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springrestbase/Service/TopicService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="71" column="35" lean-forward="false" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+        <state relative-caret-position="114">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1014#1015#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
           </folding>
         </state>
       </provider>
