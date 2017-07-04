@@ -34,7 +34,7 @@ public class TopicService {
         topicRepository.save(topic);
     }
 
-    public void updateTopic(Topic topic) {
+    public void updateTopic(Integer id, Topic topic) {
         topicRepository.save(topic);
     }
 
