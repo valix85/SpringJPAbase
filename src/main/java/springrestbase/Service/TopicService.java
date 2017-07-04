@@ -54,6 +54,7 @@ public class TopicService {
     }
 
     public void updateTopic(Integer id, Topic topic) {
+        /*
         for(int i = 0; i<topics.size();i++){
             Topic t = topics.get(i);
             if (t.getId()==id){
@@ -61,9 +62,13 @@ public class TopicService {
                 return;
             }
         }
+        */
+        //simulate insert or update
+        topicRepository.save(topic);
     }
 
     public void deleteTopic(Integer id) {
-        topics.removeIf(t -> t.getId().equals(id));
+       // topics.removeIf(t -> t.getId().equals(id));
+        topicRepository.delete(id);
     }
 }

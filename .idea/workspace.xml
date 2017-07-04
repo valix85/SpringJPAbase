@@ -42,8 +42,8 @@
       <file leaf-file-name="TopicService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/springrestbase/Service/TopicService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="77">
-              <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+            <state relative-caret-position="289">
+              <caret line="71" column="35" lean-forward="false" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,7 +76,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="step2" />
+        <entry key="$PROJECT_DIR$" value="step4" />
       </map>
     </option>
   </component>
@@ -720,11 +720,25 @@
       <option name="project" value="LOCAL" />
       <updated>1499094496682</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Create select and insert CRUD operation">
+      <created>1499097133023</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1499097133023</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create select one and other CRUD operations">
+      <created>1499097257031</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1499097257031</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5224000" />
+    <option name="totallyTimeSpent" value="5518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
@@ -784,7 +798,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update maven" />
     <MESSAGE value="Set Entity and create Repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set Entity and create Repository" />
+    <MESSAGE value="Create select and insert CRUD operation" />
+    <MESSAGE value="Create select one and other CRUD operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create select one and other CRUD operations" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -891,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/springrestbase/Service/TopicService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="49" column="36" lean-forward="false" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+        <state relative-caret-position="289">
+          <caret line="71" column="35" lean-forward="false" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
