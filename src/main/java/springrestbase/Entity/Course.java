@@ -4,6 +4,7 @@ package springrestbase.Entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 /**
  * Created by Valerio on 26/06/2017.
@@ -26,6 +27,9 @@ public class Course {
     @Column
     String description;
 
+
+    //il topic è di tipo molti a uno, sarà una chiave esterna, in JPA si dice una manyToOne
+    @ManyToOne
     private Topic topic;
 
     public Course() {
