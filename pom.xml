@@ -8,6 +8,7 @@
     <artifactId>SpringJPAbase</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <!-- <packaging>war</packaging> -->
 
     <name>spring-jpa-base</name>
     <description>Simple example Spring project with JPA connection</description>
@@ -48,6 +49,15 @@
             <artifactId>derby</artifactId>
             <scope>runtime</scope>
         </dependency>
+
+        <!-- show statistics of server, new endpoint at /health -->
+        <!-- change in application managment.port=9001 -->
+        <!-- https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
     </dependencies>
 
 
